@@ -1,0 +1,29 @@
+---
+title: "The State as Gardener – the State as Structure"
+author: "Anna Lindgren"
+subtitle: "Sångsalen Session 4: Structured by the State – infrastructure and communication in the era of industrialization organized by Björn Hasselgren and Jan Ottosson"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "anna_lindgren_the_state_as_gardener__the_state_as_.jpg"
+---
+
+## Abstract
+
+The railway is one of the innovations that has influenced modern social development the most. When the first main lines began to be built in Sweden during the mid-19th century, cultivation was an integral component of the railway system, comprising aesthetic gardens, protective cultivation, and kitchen gardens. Despite the large areas and resources this cultivation demanded, our current knowledge about why gardens were established, and when attitudes towards them began to change, is surprisingly limited.
+
+The aim of this paper is to discuss the results from my PhD-thesis “The State as Gardener: Railway Cultivation from the Art of Improving Nature to Bequest” (2022), with the purpose to analyse and discuss the events and ideals that characterised the rise and fall of the gardening organisation of the Swedish State Railways. Chronologically the study includes two key periods: the construction phase of 1855–1875 and the decline phase of 1955–1975. Archive material has been located by using the railway’s organisational system as a starting point. The method used to analyse archive material and published sources has consisted of text analysis, inspired by discourse perspectives and the theory of path dependence. With the concepts of modernity and place as points of departure, this paper discusses how the transition, from gardens being fundamental to the railway system to their being phased out from the organisation, can be understood and explained. 
+
+Gardens were among the perceived benefits of railways, where they played a key role when new places were created alongside the lines. During the construction phase of 1855–1875, railway gardens were characterised by the ideal of “the art of improving nature” (naturförsköningskonsten) and that of nation-building. The organisation and coordination of gardening, including for example plant nurseries and gardeners, was a fundamental railway activity. During the decline phase of 1955–1975, a performance-based realignment led to a focus on rationalisation and economic cutbacks. Post-war ideals of modernisation, a new rail policy, road transport and an increased emphasis on urgency all contributed to the declining role of the railways. Structure, order, aesthetics, progress and education were no longer expressed in the same way through gardens. Many places changed. Arenas where people once spent time now became areas to simply pass through. 
+
+How ideals influenced material expression, and the factors considered conducive for modernity, are discussed in the paper. Nineteenth-century industrial modernity provided the impetus for railway gardens. High modernity in the second half of the 20th century led to initial downsizing and eventually, in 1973 to the closure of the nurseries and revised tasks for the gardeners. Prior to the latter changes, “wills” were drawn up: assessments of existing gardens that were used to bequeath responsibility from a central to a local level. These changes in the State organisation and structures are also discussed in the paper.
+
+
+## PDF
+
+{{< pdf anna_lindgren_the_state_as_gardener__the_state_as_.pdf width=100% height=800 >}}
+

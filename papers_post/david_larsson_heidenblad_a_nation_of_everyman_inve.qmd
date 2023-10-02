@@ -1,0 +1,24 @@
+---
+title: "A Nation of Everyman Investors: The Popularisation of Stock Saving in Sweden"
+author: "David Larsson Heidenblad"
+subtitle: "Lilla Sparbanksfoajén Session 1: The Neoliberal Shift organized by Jonas Ljungberg and Erik Bengtsson"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "david_larsson_heidenblad_a_nation_of_everyman_inve.jpg"
+---
+
+## Abstract
+
+The paper discuss the profound transformation of the Swedish savings- and investment culture, from the late 1970s to the 2020s. During this period, financial markets and practices have come to play an ever-greater role in the lives of the many. Scholars have pointed out that the transformation of Swedish society has been especially thorough. However, despite this, we know surprisingly little about the actors and organizations who have sought to promote and strengthen popular engagement with financial markets. Consequently, scholarly understanding of this process is conspicuously void of historical agency.
+
+This paper will shed light on some of the historical actors and organizations who have embraced and promoted a 'turn to the market' through educational initiatives as well as political reforms. Particular attention will be given to what made the pivotal turning point in the early 1980s possible.
+
+## PDF
+
+{{< pdf david_larsson_heidenblad_a_nation_of_everyman_inve.pdf width=100% height=800 >}}
+

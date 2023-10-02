@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Sessions</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html" rel="" target=""><i class="bi bi-house" role="img">
+</i> 
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../programme.html" rel="" target="">
+ <span class="menu-text"><i class="fa-solid fa-calendar-plus" aria-label="calendar-plus"></i> Programme</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../venues_new.html" rel="" target="">
+ <span class="menu-text"><i class="fa-solid fa-landmark" aria-label="landmark"></i> Venues</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../abstracts.html" rel="" target="">
+ <span class="menu-text"><i class="fa-solid fa-newspaper" aria-label="newspaper"></i> Abstracts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers_post.html" rel="" target="">
+ <span class="menu-text"><i class="fa-solid fa-paperclip" aria-label="paperclip"></i> Papers</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../registration_fees.html" rel="" target="">
+ <span class="menu-text"><i class="fa-solid fa-money-bills" aria-label="money-bills"></i> Registration Fee</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+      <i class="bi bi-flower1" role="img">
+</i> 
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../info.html" rel="" target="">
+ <span class="dropdown-text">News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../info.html" rel="" target="">
+ <span class="dropdown-text">Information</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../info.html" rel="" target="">
+ <span class="dropdown-text">FAQs</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../keynotes.html" rel="" target="">
+ <span class="dropdown-text">Keynote speakers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../logistics/travel.html" rel="" target="">
+ <span class="dropdown-text"><i class="fa-solid fa-train" aria-label="train"></i> Travel</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../logistics/accomodation.html" rel="" target="">
+ <span class="dropdown-text"><i class="fa-solid fa-hotel" aria-label="hotel"></i> Accomodation</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Sessions</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>🎉 We are excited to welcome you to the 15th Swedish Economic History Meeting in September! Thank you for submitting your session proposals - we’re thrilled to share with you the provisional groupings of the accepted sessions below. 👇</p>
+<p>If you don’t see a session that aligns with your research interests, don’t worry! You do not need to choose a session when you submit an abstract. Just <a href="https://sehm2023.com/paper-submit.html">submit an abstract</a> by March 31st, and we’ll make sure you have a chance to present. 🚀</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+
+<div id="ourbzzwrwb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+:where(#ourbzzwrwb) .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+:where(#ourbzzwrwb) .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ourbzzwrwb) .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+:where(#ourbzzwrwb) .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+:where(#ourbzzwrwb) .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+:where(#ourbzzwrwb) .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#ourbzzwrwb) .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ourbzzwrwb) .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+:where(#ourbzzwrwb) .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:where(#ourbzzwrwb) .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+:where(#ourbzzwrwb) .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+:where(#ourbzzwrwb) .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+:where(#ourbzzwrwb) .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+:where(#ourbzzwrwb) .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+:where(#ourbzzwrwb) .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+:where(#ourbzzwrwb) .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+:where(#ourbzzwrwb) .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+:where(#ourbzzwrwb) .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ourbzzwrwb) .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+:where(#ourbzzwrwb) .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+:where(#ourbzzwrwb) .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ourbzzwrwb) .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+:where(#ourbzzwrwb) .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+:where(#ourbzzwrwb) .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#ourbzzwrwb) .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ourbzzwrwb) .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#ourbzzwrwb) .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+:where(#ourbzzwrwb) .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#ourbzzwrwb) .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ourbzzwrwb) .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ourbzzwrwb) .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ourbzzwrwb) .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ourbzzwrwb) .gt_left {
+  text-align: left;
+}
+
+:where(#ourbzzwrwb) .gt_center {
+  text-align: center;
+}
+
+:where(#ourbzzwrwb) .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+:where(#ourbzzwrwb) .gt_font_normal {
+  font-weight: normal;
+}
+
+:where(#ourbzzwrwb) .gt_font_bold {
+  font-weight: bold;
+}
+
+:where(#ourbzzwrwb) .gt_font_italic {
+  font-style: italic;
+}
+
+:where(#ourbzzwrwb) .gt_super {
+  font-size: 65%;
+}
+
+:where(#ourbzzwrwb) .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+:where(#ourbzzwrwb) .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+:where(#ourbzzwrwb) .gt_indent_1 {
+  text-indent: 5px;
+}
+
+:where(#ourbzzwrwb) .gt_indent_2 {
+  text-indent: 10px;
+}
+
+:where(#ourbzzwrwb) .gt_indent_3 {
+  text-indent: 15px;
+}
+
+:where(#ourbzzwrwb) .gt_indent_4 {
+  text-indent: 20px;
+}
+
+:where(#ourbzzwrwb) .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table">
+  <thead class="gt_header">
+    <tr>
+      <td colspan="3" class="gt_heading gt_title gt_font_normal" style=""><strong>Provisional sessions for SEHM23</strong></td>
+    </tr>
+    <tr>
+      <td colspan="3" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="">Session groups shown with blue banner</td>
+    </tr>
+  </thead>
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Session title">Session title</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Organizer">Organizer</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Description">Description</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr class="gt_group_heading_row">
+      <th colspan="3" class="gt_group_heading" style="background-color: #22458A; color: #FFFFFF;" scope="colgroup" id="Political Economy💰🏛️">Political Economy💰🏛️</th>
+    </tr>
+    <tr class="gt_row_group_first"><td headers="Political Economy💰🏛️  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Structured by the State – infrastructure and communication in the era of industrialization</p>
+</div></td>
+<td headers="Political Economy💰🏛️  organizer" class="gt_row gt_left">Björn Hasselgren and Jan Ottosson</td>
+<td headers="Political Economy💰🏛️  proposed_session_description" class="gt_row gt_left">Svensk sessionstitel: Staten strukturerar – infrastruktur och kommunikationer i industrialiseringens tidevarv.
+
+The government over time has played an important role in setting the rules of the game of communication systems by regulation, financing and involvement in infrastructure. As a prerequisite for, and in coevolution with, industrialization and growth infrastructure measures has been one of the core areas of governments' action, from the late 1700s up until today.
+
+The session will shed light on different areas in the communication and infrastructure field such as the canal era and industrial development, vehicle development in the early era of road transport, the state as an agent spreading modernity through the railway system and the role of Scandinavia’s state-owned air-transport corporation during the cold war. Additional presentations might be added.</td></tr>
+    <tr><td headers="Political Economy💰🏛️  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>The political economy of protection</p>
+</div></td>
+<td headers="Political Economy💰🏛️  organizer" class="gt_row gt_left">Christopher Absell</td>
+<td headers="Political Economy💰🏛️  proposed_session_description" class="gt_row gt_left">Recent political events have highlighted the economic importance of the distributional consequences of protection. The United States-China trade war of 2018 and the withdrawal of the United Kingdom from the European Union have rekindled interest in the impact of politically motivated trade policy interventions on consumer and producer welfare. Outside of a return to unilateralism and protectionism, other forms of non-tariff barriers, such as export subsidies and restrictions, have seen a sharp rise. Across countries and over time, trade policy of differing natures has been used to differing political ends, whether that be favouring domestic, ‘infant’ industry, raising fiscal revenue, or countering foreign, anti-competitive behaviour. Economists and economic historians have shown that the welfare effects of any trade policy, whether liberal or protectionist, generate both winners and losers, and thus may have important long-run distributional consequences that affect the growth and development of a country and its trading partners. What’s more, work on historical episodes of tariff formation have shown that while welfare considerations are frequently central to trade policymaking, distributional choices are sometimes biased by special interest politics. This session seeks to advance the state of the art on the political economy of protection by including work on tariff formation and its consequences for different countries and historical periods.</td></tr>
+    <tr><td headers="Political Economy💰🏛️  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>The Neoliberal Shift</p>
+</div></td>
+<td headers="Political Economy💰🏛️  organizer" class="gt_row gt_left">Jonas Ljungberg and Erik Bengtsson</td>
+<td headers="Political Economy💰🏛️  proposed_session_description" class="gt_row gt_left">Half a century ago, textbooks in economics forecasted the continued growth of governments' involvement in the economy along the lines of the mixed economy. By contrast we have seen retreat of government and growth of markets. This session invites papers dealing with different aspects of this shift, from the institutional and economic structure, to economic policy and theory and including sociocultural life.</td></tr>
+    <tr><td headers="Political Economy💰🏛️  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Levels of Cartelization: Scandinavian Perspectives on the Role Cartelization in Business Development</p>
+</div></td>
+<td headers="Political Economy💰🏛️  organizer" class="gt_row gt_left">Kasper Hage Stjern</td>
+<td headers="Political Economy💰🏛️  proposed_session_description" class="gt_row gt_left">Cartels have played an influential role in the history of business in the twentieth century. A cartel is an agreement between firms or organization of firms of the same branch of industry, which is designed to influence production or distribution of goods or services by the limitation of competition. As business leaders grew their businesses from local initiatives to larger regional, national, or even international organizations, many sought to cooperate with their peers in their networks when faced with competition of increasing intensity. Such organizations were permitted, and even encouraged, long into the twentieth century. 
+
+
+In this session, we explore the building materials of cartels, both in the sense of the materials produced in the construction and building materials cartels, and in the organizational build-up of cartels that facilitated an inner life of their own as in the brewery industry. We employ a comparative perspective both between countries and between industries to provide new insights into how cartels affected the development of business.</td></tr>
+    <tr class="gt_group_heading_row">
+      <th colspan="3" class="gt_group_heading" style="background-color: #22458A; color: #FFFFFF;" scope="colgroup" id="Methods and measuring📊🧪">Methods and measuring📊🧪</th>
+    </tr>
+    <tr class="gt_row_group_first"><td headers="Methods and measuring📊🧪  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>History of economic statistics and measurements</p>
+</div></td>
+<td headers="Methods and measuring📊🧪  organizer" class="gt_row gt_left">Daniel Berg</td>
+<td headers="Methods and measuring📊🧪  proposed_session_description" class="gt_row gt_left">The history of macroeconomic indicators, and disputes over calculation methods, is attracting a growing scholarly interest. This touches on more longstanding debates within economic history, such as the evergreen debate on how to best measure and compare long-term changes in living standards and economic growth. The production of key measurements such as GDP and CPI rests on assumptions about the underlying historical context, while not always making much use of qualitative studies on the same contextual factors. Comparing present day goods (or prices) with those of past centuries is a challenging proposition. However, the same challenges can also be the point of departure for fruitful reflection that may inform a wide range of fields within social and economic history.
+
+Taking the emerging field of critical index studies as a point of departure, this session aims to forge new collaborative partnerships between researchers of quantitative and qualitative orientation. We hope to point towards future work of linking old and new measurements, and to discuss how historical universals and equivalences are articulated both within our discipline and in the political use of macroeconomic indicators today.</td></tr>
+    <tr><td headers="Methods and measuring📊🧪  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Global inequality – levels and trends</p>
+</div></td>
+<td headers="Methods and measuring📊🧪  organizer" class="gt_row gt_left">Ellen Hillbom</td>
+<td headers="Methods and measuring📊🧪  proposed_session_description" class="gt_row gt_left">Why is inequality higher in some countries than in others? What drives changes in inequality over the long run? These are central questions in economic history; from the pioneering work of Kuznets (1955) to Piketty (2014) and Scheidel (2017). And the scholarly attention to understanding global inequality keeps on growing with influential publications and expanding databases (Milanovic 2018; UNU-WIDER 2023; van Zanden et al. 2014; World Inequality Lab 2023). Yet, there is little consensus on the causes and consequences of global inequality, and because theorizing about inequality is generally inductive, we need more and better empirical studies to understand the evolution of long-term inequality.
+In this session, we invite papers presenting new data and/or analysing new aspects of dimensions and determinants of long-term inequality, primarily income and wealth. We open up for a broad scope through time and space as we are in search of global commonalities.</td></tr>
+    <tr><td headers="Methods and measuring📊🧪  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>History of consumption</p>
+</div></td>
+<td headers="Methods and measuring📊🧪  organizer" class="gt_row gt_left">Fia Sundevall</td>
+<td headers="Methods and measuring📊🧪  proposed_session_description" class="gt_row gt_left">This session welcomes empirical and theoretical contributions to the advancement of research within the field of history of consumption, including but not limited to themes such as consumer culture, consumer groups and segmentation of the consumer market, advertising and marketing, sites of consumption, consumer boycotts and organizations, distribution networks, gift economy, and controversial consumption.
+
+
+</td></tr>
+    <tr><td headers="Methods and measuring📊🧪  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Central banking – a science or an art?</p>
+</div></td>
+<td headers="Methods and measuring📊🧪  organizer" class="gt_row gt_left">Lars Fredrik Øksendal and Anders Ögren</td>
+<td headers="Methods and measuring📊🧪  proposed_session_description" class="gt_row gt_left">
+With inflation returning with a vengeance, monetary policy is at a crossroad. Inflation targeting, the guiding set of beliefs for central banking in most of the advanced world for the last two to three decades, is arguably the most science-based framework for monetary policy decision ever seen. For long lauded by many as the source of low and stable general price patterns, the inflation targeting framework has since 2008 been marred by extremely low policy rates, monetary creation, and asset inflation. And in 2022, consumer prices hit back.
+
+The reflection of inflation targeting as the most science-based framework rests on two arguments: a) the actual use of economic science and monetary models in the decision-making processes, and equally important b) how all other consideration of the central bank, including financial stability and a well-functioning payments system, became tasks of a secondary nature.
+
+Inflation targeting in many ways contrast traditional central banking. Although scientifically informed, central banking always rested on experience and the ability to understand a context as well. Moreover, the need for balancing different concerns, most typically the at times conflicting objectives of monetary and financial stability, traditionally led to trade-offs which emphasised the nature of central banking as that of an art. 
+We believe the timing is right for a session revisiting the fundamentals of how central banking ought to be understood in history as well as in contemporary perceptive.</td></tr>
+    <tr><td headers="Methods and measuring📊🧪  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Uncovering the Historical Dynamics of Consumer, House, and Property Prices in Sweden</p>
+</div></td>
+<td headers="Methods and measuring📊🧪  organizer" class="gt_row gt_left">Rodney Edvinsson</td>
+<td headers="Methods and measuring📊🧪  proposed_session_description" class="gt_row gt_left">This seminar aims to provide a platform for the presentation and discussion of recent research on the historical evolution of prices in Sweden. The focus of the seminar is on consumer prices, house prices, and property prices, and how these prices have changed over time as a result of economic, social, and political factors.
+
+
+The seminar is an opportunity for economic historians to share their findings, discuss their research methods, and exchange ideas with peers from a range of disciplines. We encourage submissions of papers that provide in-depth analysis of the historical data on consumer prices, house prices, and property prices in Sweden and explore the underlying mechanisms driving price changes. Papers that utilize innovative research methods, such as econometric analysis, archival research, or comparative analysis, are particularly welcome.
+
+
+This seminar promises to be an intellectually stimulating and engaging event for economic historians who are interested in exploring the rich history of prices in Sweden. By bringing together leading experts in the field, we hope to foster collaboration, inspire new research, and deepen our understanding of the complex dynamics of prices in Sweden over time.</td></tr>
+    <tr><td headers="Methods and measuring📊🧪  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Historical national accounts</p>
+</div></td>
+<td headers="Methods and measuring📊🧪  organizer" class="gt_row gt_left">Svante Prado and Kerstin Enflo</td>
+<td headers="Methods and measuring📊🧪  proposed_session_description" class="gt_row gt_left">Historical national accounts constitute an important research field within economic history. National accounts constitute systematic accounting techniques to measure the economic activity of nations and regions. Internationally, there has been many efforts to extend existing GDP series back to the early modern period and the Middle Ages. Attempts are also made to improve the existing series of nineteenth century early twentieth century. This session welcomes contributions in the field of historical national accounts in a broad sense, for example, on regional national accounts, long-term economic growth, income distribution, environmental accounts, price indices, purchasing power parities, estimates of production in various branches, national wealth, employment, population, satellite national accounts, estimates of unpaid domestic services, human capital formation, and conceptual development.</td></tr>
+    <tr class="gt_group_heading_row">
+      <th colspan="3" class="gt_group_heading" style="background-color: #22458A; color: #FFFFFF;" scope="colgroup" id="Sustainability🌍🌿">Sustainability🌍🌿</th>
+    </tr>
+    <tr class="gt_row_group_first"><td headers="Sustainability🌍🌿  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>There ain’t no mountain high enough, ain’t no valley low enough: Ownership, redistribution, and extraction of natural resources, 1800-2000</p>
+</div></td>
+<td headers="Sustainability🌍🌿  organizer" class="gt_row gt_left">Kasper Hage Stjern</td>
+<td headers="Sustainability🌍🌿  proposed_session_description" class="gt_row gt_left">The demand for natural resources to feed the needs of growing a population and industry has continued to increase since the Industrial Revolution. Technological innovations in transportation and technology have increased the extent and intensity in resource extraction, as well as improving the reach of industrial societies in controlling the access to these resources. These developments, combined with growing state regulatory ambitions in keeping their natural splendour for their own industrial development, as well as popular pressures for democratization and redistribution, have proved a volatile mix. Issues of who owns, extracts, and benefits from, natural resources have been, and still are, important challenges which cause unrest and conflict. This session explores the different dimensions of the ownership, extraction, and redistribution of natural resources from the growing demand for resources since 1800. The participants discuss the topic from overarching perspectives of land reform and resource nationalism, to a closer examination of the experiences of miners’ jobs and regulating the use of mountain ranges.</td></tr>
+    <tr><td headers="Sustainability🌍🌿  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Sustainability and energy transitions in economic and business history</p>
+</div></td>
+<td headers="Sustainability🌍🌿  organizer" class="gt_row gt_left">Mattias Näsman and Josef Taalbi</td>
+<td headers="Sustainability🌍🌿  proposed_session_description" class="gt_row gt_left">The causes of and social and economic consequences of deep structural change are of key interest in economic and business history research. Through three industrial revolutions, sources of energy and their use have been added as inputs for supporting new technological pathways. Fossil fuels such as coal and oil are still dominating global energy mixes following the widespread adoption of coal in the nineteenth century and oil in the twentieth century. Environmental deterioration has followed from increasing global reliance on fossil fuels, where the speed of deterioration massively accelerated after 1950 – a phenomenon now termed the “great acceleration,” posing major challenges for societies at all scales. In recent years, scholars have begun exploring these challenges, asking how to bring about energy and sustainability transitions in order to safeguard against environmental catastrophe. In light of the economic downturn and the energy crisis brought by the Covid-19 pandemic as well as the economic consequences of Russia’s invasion of Ukraine, EU and US policymakers have implemented policies aiming for the transformation of industries, typically under the heading of a “Green deal.” This session seeks to bring together economic and business history scholars by asking open questions about what our respective fields of research might contribute to the scholarly conversations and policy debates regarding energy and sustainability transitions. How can and, perhaps, should we use history to understand the ongoing transitions? What are the stylized facts from previous transitions? What are the determinants of innovations, and how do innovations contribute to transforming societies? What is the role of large-scale incumbent businesses in transitions? Which headwinds are the transition facing and how could they be overcome? Who will gain and who will lose from a transformed economic structure? The session welcomes contributions answering these and other questions, hoping to highlight and possible identify fruitful economic or business history research agendas.</td></tr>
+    <tr class="gt_group_heading_row">
+      <th colspan="3" class="gt_group_heading" style="background-color: #22458A; color: #FFFFFF;" scope="colgroup" id="Development🌱">Development🌱</th>
+    </tr>
+    <tr class="gt_row_group_first"><td headers="Development🌱  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>The role of educational policy, sex education and contraceptives for gender equality</p>
+</div></td>
+<td headers="Development🌱  organizer" class="gt_row gt_left">Annika Elwert and Volha Lazuka</td>
+<td headers="Development🌱  proposed_session_description" class="gt_row gt_left">In this session, we seek to unite the historical and economic literature on sex education and contraceptives with a special focus on gender equality. Economic inequality between men and women has declined throughout the 20th century in developed countries but is still significant today, despite equal graduation rates, anti-discrimination legislation, and generous family policies. Previous studies have shown the importance of educational policies and the availability of contraceptives for women's educational and career advances. Using that literature as a starting point, we seek to unite the historical and economic literature that uses historical policies (education, childcare, etc.), contraceptive use, and events (e.g., wars, migration flaws) to study the development of gender and economic inequality.</td></tr>
+    <tr><td headers="Development🌱  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Paths towards sustained development in the global south: Historical lessons</p>
+</div></td>
+<td headers="Development🌱  organizer" class="gt_row gt_left">Erik Green and Ellen Hillbom</td>
+<td headers="Development🌱  proposed_session_description" class="gt_row gt_left">The ongoing planetary crisis, Covid 19 pandemic, and the war in Ukraine have again shown how vulnerable developing countries are to changes in the global economy. After decades of economic growth and reduced poverty many developing countries are again facing severe substantial economic, and social, and environmental challenges. It shows the need to find viable paths toward sustained development in the poor parts of the Global South. This session invites papers that provide historical lessons of sustained and non-sustained paths of economic development in the Global South. 
+The organizers wish to encourage research that explores the influence of historical events, initial conditions and development strategies on past and present development patterns of the catching-up and falling-behind economies. The papers can use a wide range of methods, from detailed case studies to comparative perspectives. Just as the geographic focus is wide, we open up for a broad range of classic economic historian research topics. We, however, especially like to welcome papers dealing with the agricultural transformation and structural change, the role of institutions and factor endowments in economic development, human capital formation and changing labour relations, and questions related to the interaction of developing countries with the international economy.</td></tr>
+    <tr class="gt_group_heading_row">
+      <th colspan="3" class="gt_group_heading" style="background-color: #22458A; color: #FFFFFF;" scope="colgroup" id="Labour👷">Labour👷</th>
+    </tr>
+    <tr class="gt_row_group_first"><td headers="Labour👷  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Labour, living standards and inequality</p>
+</div></td>
+<td headers="Labour👷  organizer" class="gt_row gt_left">Erik Bengtsson</td>
+<td headers="Labour👷  proposed_session_description" class="gt_row gt_left">The study of historical labour, living standards and inequality is at the core of economic history as a field. The purpose of this session, which aims to be a double session, is to collect research on these wider themes on Sweden and other countries, from the early modern period and on to modern eras. We have several papers in the session proposal but also welcome further additions. Discussant duties will be assigned among the presenting authors.</td></tr>
+    <tr><td headers="Labour👷  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Labour and workers in Sweden since approx. 1850</p>
+</div></td>
+<td headers="Labour👷  organizer" class="gt_row gt_left">Fia Sundevall</td>
+<td headers="Labour👷  proposed_session_description" class="gt_row gt_left">This session welcomes empirical, theoretical and methodological contributions to the advancement of research within late-modern Swedish labour history, including but not limited to labour coercion, labour migration, employment security, sites of production, labour market intermediaries, labour struggles and unions. We particularly encourage papers which consider and analyse power asymmetries of various kinds.
+
+The session will be held in English or Swedish, depending on the preferences of paper presenters.
+</td></tr>
+    <tr><td headers="Labour👷  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Labour, Wages and Wage Differentials in Global History, 1500-1950: Special issue: International Review of Social History</p>
+</div></td>
+<td headers="Labour👷  organizer" class="gt_row gt_left">Kathryn Gary</td>
+<td headers="Labour👷  proposed_session_description" class="gt_row gt_left">The comparison of wage rates as a way to assess differentials and trends in standard of living across the globe has held centre stage in global social-economic history over the past two decades following the pioneering work of Robert Allen (2001, 2009, 2015). 
+
+
+This work has spurred a large literature gathering and analysing new evidence on wages and prices in order to assess and compare levels and trends in the incomes of the labouring classes in all parts of the world. Long-run data now covers a very substantial part of the world for the pre-industrial period, and these studies have tremendously increased our understanding of long-term global history as most wage data suggest that there was a relative early “Great Divergence” between north-western Europe on the one hand, and the rest of the world (including the remainder of Europe) on the other (Allen et al. 2011; De Zwart and Lucassen 2020; Lucassen and Seshan 2022)
+
+
+These achievements notwithstanding, there has been growing critique that these studies have put too much weight on the trajectory of incomes of male, urban, unskilled, daily wage labourers and that insufficient attention has been paid to wage differentials between different social groups as well as in what form or manner wages were paid. 
+
+
+This session presents papers that are part of a special issue of the International Review of Social History planned for publication in 2024.</td></tr>
+    <tr class="gt_group_heading_row">
+      <th colspan="3" class="gt_group_heading" style="background-color: #22458A; color: #FFFFFF;" scope="colgroup" id="Living standards, life cycles and ageing🏠👵">Living standards, life cycles and ageing🏠👵</th>
+    </tr>
+    <tr class="gt_row_group_first"><td headers="Living standards, life cycles and ageing🏠👵  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Life cycles incomes and relief during stages of economic hardship</p>
+</div></td>
+<td headers="Living standards, life cycles and ageing🏠👵  organizer" class="gt_row gt_left">Anton Svensson and Louise Cormack</td>
+<td headers="Living standards, life cycles and ageing🏠👵  proposed_session_description" class="gt_row gt_left">How did individuals overcome economic hardship in different stages of life (e.g. childbearing, widowhood, ageing) in the past? This session addresses questions relating to individuals’ economic challenges over the life cycle. Although these challenges are well-known and recognized, deeper understanding of their severity, their consequences and how they have been dealt with historically are needed. This contributes to increased knowledge of how and when welfare policies can aid during life stages of economic hardship, both then and now.</td></tr>
+    <tr><td headers="Living standards, life cycles and ageing🏠👵  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>The long road to the welfare state... and beyond: retirement, old-age provision and eldercare in the past and present
+<br></p>
+</div></td>
+<td headers="Living standards, life cycles and ageing🏠👵  organizer" class="gt_row gt_left">Jaco Zuijderduijn and Tobias Karlsson</td>
+<td headers="Living standards, life cycles and ageing🏠👵  proposed_session_description" class="gt_row gt_left">Before the Second World War old men and women relied on support from individuals and families, neighbours and communities, mutual-aid organisations, charities, and commercial organisations. This panel welcomes papers on the various types of retirement patterns, eldercare and provision for old age that existed before the welfare state or in its early phase, for example discussing the importance and reliability of various types of support, their interplay, the pathways from gainful employment to retirement, how and why eldercare was eventually taken over by the state etc. We also welcome papers on old-age provisions that have been developed to complement contemporary welfare states. Our aim is to create an interdisciplinary panel including scholars of economic, social and demography history and other disciplines.
+</td></tr>
+    <tr><td headers="Living standards, life cycles and ageing🏠👵  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Pre-Industrial Households and Markets</p>
+</div></td>
+<td headers="Living standards, life cycles and ageing🏠👵  organizer" class="gt_row gt_left">Marcus Falk</td>
+<td headers="Living standards, life cycles and ageing🏠👵  proposed_session_description" class="gt_row gt_left">Presentations of research investigating the pre-industrial household as well as its relation to both local and emerging inter-regional markets. We are looking for presentations of research on diverse topics concerning household reproduction, female and children wage labour participation, living arrangements, inter-household relations, and consumption, aimed at achieving a better understanding of the everyday lives, as well as living standard, of the pre-industrial population.</td></tr>
+    <tr class="gt_group_heading_row">
+      <th colspan="3" class="gt_group_heading" style="background-color: #22458A; color: #FFFFFF;" scope="colgroup" id="Technological change and migration🚀🛬">Technological change and migration🚀🛬</th>
+    </tr>
+    <tr class="gt_row_group_first"><td headers="Technological change and migration🚀🛬  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Historical Perspectives on Migration</p>
+</div></td>
+<td headers="Technological change and migration🚀🛬  organizer" class="gt_row gt_left">Jonatan Andersson</td>
+<td headers="Technological change and migration🚀🛬  proposed_session_description" class="gt_row gt_left">In this session, papers about internal and international migration in history are presented.</td></tr>
+    <tr><td headers="Technological change and migration🚀🛬  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Consequences of Technological Change</p>
+</div></td>
+<td headers="Technological change and migration🚀🛬  organizer" class="gt_row gt_left">Suvi Heikkuri</td>
+<td headers="Technological change and migration🚀🛬  proposed_session_description" class="gt_row gt_left">Technological change is considered one of the most important factors for modern economic growth. However, the introduction of new technologies often comes with unintended consequences. This session focuses on the consequences of technological change for economic performance at the level of sectors or industries as well as for the labour market. Technological change can be interpreted as an introduction of a new ground-breaking technology or as a broader phenomenon. Potential consequences considered in the session include, but are not limited to, shifts in employment and occupational structure, changes in the demand for skills, and changes in productivity.</td></tr>
+    <tr class="gt_group_heading_row">
+      <th colspan="3" class="gt_group_heading" style="background-color: #22458A; color: #FFFFFF;" scope="colgroup" id="New PhD projects🎓🆕">New PhD projects🎓🆕</th>
+    </tr>
+    <tr class="gt_row_group_first"><td headers="New PhD projects🎓🆕  session_name" class="gt_row gt_left"><div class="gt_from_md"><p>Up-and-coming research: presentations of new PhD projects in Economic History</p>
+</div></td>
+<td headers="New PhD projects🎓🆕  organizer" class="gt_row gt_left">Fia Sundevall</td>
+<td headers="New PhD projects🎓🆕  proposed_session_description" class="gt_row gt_left">What doctoral theses in economic history can we expect to read 4-5 years from now? In this session, newly accepted PhD students in Economic history present their doctoral thesis projects.</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,24 @@
+---
+title: "The art of surviving as a family business – the Nordic case"
+author: "Hans Sjögren"
+subtitle: "Sångsalen Session 6: Families, business and wealth organized by Staffan Albinsson"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "hans_sjogren_the_art_of_surviving_as_a_family_busi.jpg"
+---
+
+## Abstract
+
+The art of surviving as a family business – the Nordic case
+
+Nordic large family businesses have survived two world wars, waves of nationalization and numerous industrial shocks and financial crises. The external chocks have squeezed private capitalists every now and then and forced them to make a restart. The willingness, often reluctant, of both the political system and labour movement to accept asset accumulation has helped these Nordic large family businesses survive, leading to a symbiotic relationship between the national states and private capital owners. This stresses the role of the government in providing entrepreneurs with effective institutions to build private wealth. In my paper, I will use a multidisciplinary method to study the emergence of large family businesses, sometimes called family dynasties. I will demonstrate how certain national institutions have protected expansion and success of large family businesses in the region and in the international economy, and how family members have pushed for institutional change to benefit its own commercial operations. The paper will also show how strategical choices, e.g.  holding on to the core business instead of diversifying, are related to their resilience. While many Nordic companies ruled by families rode the wave of restructuring from the United States in the post-war period, continuity in relation to the core business was rarely sacrificed. Holding onto the original industry, products and services have in most cases been enough and the most successful survival strategy.
+
+## PDF
+
+{{< pdf hans_sjogren_the_art_of_surviving_as_a_family_busi.pdf width=100% height=800 >}}
+

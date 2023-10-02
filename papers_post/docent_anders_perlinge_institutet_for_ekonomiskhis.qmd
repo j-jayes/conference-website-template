@@ -1,0 +1,28 @@
+---
+title: "Likvida affärer. Ored Olsson i Grönhult, Villands Vånga, och brännvinsekonomin vid 1800-talets mitt."
+author: "Docent Anders Perlinge, Institutet för Ekonomisk-historisk och Företagshistorisk Forskning (EHFF), Handelshögskolan i Stockholm"
+subtitle: "Lilla Sparbanksfoajén Session 5: Pre-Industrial Households and Markets organized by Marcus Falk"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "docent_anders_perlinge_institutet_for_ekonomiskhis.jpg"
+---
+
+## Abstract
+
+Forskningsfältet rörande svenska historiska kreditmarknader, som i huvudsak bygger på bouppteckningar och behandlas inom skilda discipliner såsom historia, agrarhistoria, ekonomisk-historia, etnologi och kulturgeografi, har trots utnyttjandet av varierande metoder ändå nått resultat som ofta har förstärkt och kompletterat varandra utan alltför stora motsättningar. Nya kunskaper om den övergripande bilden av kreditmarknaden har därigenom etablerats, vilka öppnar för nya tolkningar av större ekonomiska skeenden i samhällsförändringen. Möjligen har det dock uppstått en risk för en sorts övertro på vad bouppteckningarna faktiskt kan ge svar om.
+   Syftet är här att med hjälp av en unik källa, dagboksanteckningar förda av bonden Ored Olsson (1791–1883) i Grönhult (Villands härad, Kristianstads län) kring mitten av 1800-talet, i en fallstudie beskriva, fördjupa och analysera sådana aspekter av enskildas kreditrelationer som inte täcks av de många bouppteckningsstudierna. En i stora drag kvantitativ bild av kreditmarknaden behöver fördjupas för att nå större förståelse av agerandet hos samtidens aktörer i en historienarrativ som förs framifrån, utan att bombarderas i alltför hög grad med vår tids efterklokskap. De blixtbilder som bouppteckningar kan ge av kreditmarknadens konkreta innehåll måste därför kompletteras med hjälp av studier baserade på mer kontinuerligt förda källor. Det unika betraktas här som ett generellt fenomen som utgör själva essensen i humaniora, varför syftet inte behöver störas av krav på representativitet eller statistisk signifikans.
+   Forskningsfrågorna är: Hur genomfördes affärstransaktioner på landsbygden i praktiken, förekom till exempel transporter av reverser på andra personer? Vilka valutor användes? Hur uppfattade aktörerna sina kreditrelationer, var de enbart en resurs eller kunde de också bli en belastning? Fanns det olika typer av mellanmänskliga relationer som grundade sig på ekonomiska utbyten, till exempel formella lån och förtroendelån? Hur stor andel utgjorde transaktioner eller prestationer i natura? Vilken betydelse hade kreditrelationer mellan land och stad? Vilken roll spelade kvinnorna i de personliga nätverken?
+   Metodologin anknyter till tidigare studier i bondedagböcker (se till exempel Bo Larsson, 1992. Svenska bondedagböcker. Ett nationalregister. Stockholm: Nordiska museet) inom agrarhistorisk, lokalhistorisk, kulturhistorisk och genealogisk forskning, med i huvudsak kvalitativa angreppssätt, men bygger samtidigt på en kvantitativ bakgrundsanalys av enskilda dagboksnotiser.
+   Social Network Analysis (SNA) används däremot inte här, eftersom resultatet av en sådan sannolikt skulle ge en delvis förutsägbar bild, med dagboksförfattaren som självskrivet epicentrum, och även sakna möjligheter att belysa mellanmänskliga relationer i de sociala aktivitetsfältens periferi.
+   Dagböckerna förvaras i Kulturhistoriska museets arkiv i Lund och har tidigare främst utnyttjats av den lokalhistoriska forskningen, och omfattar en sammanhängande tidsperiod, 1833–1846, samt därefter några spridda år; 1852, 1854 och 1856–1857. Senare har sonen Ored Oredsson fört dagboken vidare i bevarade delar för åren 1863 och 1867. Anteckningarna är inte alltid exakt daterade och de är uppenbarligen inte införda helt i kronologisk ordning. Kreditrelationer framstår som särskilt viktiga i anteckningarna, men en hel del noteringar avser överenskomna eller genomförda arbeten av skilda slag. Handstilen är klottrig men i princip alltid fullt möjlig att tolka. Sammantaget omfattar dagboken nära tolvhundra sidor i ett för tiden typiskt duodesformat eller 12:o. Digitala bilder av hela dagboken har skapats för denna studie.
+
+
+## PDF
+
+{{< pdf docent_anders_perlinge_institutet_for_ekonomiskhis.pdf width=100% height=800 >}}
+

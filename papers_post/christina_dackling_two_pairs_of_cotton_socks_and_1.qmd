@@ -1,0 +1,22 @@
+---
+title: "“Two pairs of cotton socks, and 1 ditto worn.” - Cotton consumption households in Karlskrona at the turn of the 1800s."
+author: "Christina Dackling"
+subtitle: "Lilla Sparbanksfoajén Session 6: Pre-Industrial Households and Markets organized by Marcus Falk"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "christina_dackling_two_pairs_of_cotton_socks_and_1.jpg"
+---
+
+## Abstract
+
+The transition between early modern and modern times was marked in Europe by major changes in the clothing supply of households. The availability of new textile materials changed the conditions for consumption and possession of clothing. An important aspect is increased access to cotton via international trade. Growing opportunities to meet the need for textiles through purchase rather than through own production meant a transformation of everyday life for those - mainly women - who had previously organized their working lives around the practical aspects of providing their household with enough clothing. However, we still know very little about how this change took shape in practice for the majority of people and places. How fast and extensive the transition from home production to clothing made from imported cotton is unclear, as well as what patterns and variations in clothing supply emerged during this transition period. Who, at a certain time, wore cotton clothing? In this article, clothing ownership and clothing consumption in the military town of Karlskrona in eastern Blekinge, is examined at the turn of the 1800s. From documentation in probate records, a picture is drawn of cotton's path into the wardrobes of the population.
+
+## PDF
+
+{{< pdf christina_dackling_two_pairs_of_cotton_socks_and_1.pdf width=100% height=800 >}}
+

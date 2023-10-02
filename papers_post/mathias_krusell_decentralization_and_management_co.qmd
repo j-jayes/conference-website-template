@@ -1,0 +1,30 @@
+---
+title: "Decentralization and Management Consultants"
+author: "Mathias Krusell"
+subtitle: "Lilla Sparbanksfoajén Session 3: The Neoliberal Shift organized by Jonas Ljungberg and Erik Bengtsson"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "mathias_krusell_decentralization_and_management_co.jpg"
+---
+
+## Abstract
+
+This paper is a proposition for a future research project on the role of managerial consultants in the decentralization of Swedish public administration. It draws upon the ongoing research of my thesis which looks at management consultants’ interactions with businesses such as Alfa-Laval and Ericsson in consequential re-organizational projects during the late 1970s and 1980s. 
+It contributes to our knowledge on the decisive aspect of the neoliberal shift of the changes in public administration. In the implementation of New Public Management, decentralization was a contributing factor (Williamson 1985 and Pollitt & Bouckartt 2011). The call to decentralize public administration harmonized with a larger critique against bureaucratic structures both within public and business administration. Statskontoret (The Swedish Agency for Public Management) started working with the management consultancy firm SIAR (Swedish Institute for Administrative Research) in the late 1960s. They established contact and discussed decentralization, a topic which the Statskontoret later also published reports on. My proposed project will answer
+
+-	How did the interaction between Statskontoret and SIAR elapse?
+-	What did it lead to?
+-	How influential was SIARs theoretical position on bureaucracy in this process?
+
+Through presenting at this session, the prospect is to get comments which could improve the research questions, contribute to the theoretical framework and provide further significant historical context for the research.
+
+
+## PDF
+
+{{< pdf mathias_krusell_decentralization_and_management_co.pdf width=100% height=800 >}}
+

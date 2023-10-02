@@ -1,0 +1,32 @@
+---
+title: "Neoliberalism in the making? The role of managerial agency in the corproatization of swedish public entperises"
+author: "Rasmus Nykvist, Rickard Björnemalm"
+subtitle: "Lilla Sparbanksfoajén Session 2: The Neoliberal Shift organized by Jonas Ljungberg and Erik Bengtsson"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "rasmus_nykvist_neoliberalism_in_the_making_the_rol.jpg"
+---
+
+## Abstract
+
+An often overlooked aspect of the neoliberal shift within the Swedish national context is the process of corporatization of public enterprises. Corporatization was a decades-long, gradual process, starting with formalization in 1911 and its culmination in the early 1990s as the Swedish ‘affärsverk’ (public enterprises) –specific types of “business-like” government authorities– went from being a public agency to being a state-owned enterprise.  As such, the corporatization of the ‘affärsverk’ is a key part of this shift towards market orientation.
+
+The research presented will be focused around a critical juncture in the historical trajectories of the ‘affärsverk’: The government official inquiry into the public enterprises - the enterprise leadership committee (‘verkledningskommitén’) that was initiated in 1983 and delivered its two final reports in 1985. These reports were then developed into a legislative proposal and accepted in 1987. This proposal officially granted the Affärsverk results-based, corporate governance structures (Berg, 1999). This marked the “last gasp” and a distinct market oriented shift in the organizational and regulatory structure of the ‘affärsverk’, however it did not entail full corporatization.
+
+Because of their structure, the affärsverk were part market overseer and regulator, part market actor and part creator of markets. Often acting as both regulator and participant in the very same market. In addition, each of these organizations arose from specific historical circumstances (Waara, 1980). The structures governing ‘affärsverk’ were often unclear and non-uniform. This gave the individual affärsverk varying levels of discretion depending on the specific regulatory rules that governed each organization. As such, there was considerable tension between the structures governing the affärsverk and agency in terms of managerial discretion within each affärsverk. It is therefore of interest to bring further understanding to how and to what extent management attempted to utilize this agency to influence their own regulatory structures by partaking in the policy process leading to the major reform in 1987 to this end, verkledningskommittén provides an intriguing subject of study.
+
+As an entry point, Berg (1999) explicitly mentions that the internal perspective of the Affärsverk has not yet been covered extensively. Our research will fill this gap as we will utilize archival material from ‘verkledningskommittén’, in addition to board- and management minutes as well as to internal strategic reports from the different affärsverk archives (with the exception of FFV).
+
+
+
+
+
+## PDF
+
+{{< pdf rasmus_nykvist_neoliberalism_in_the_making_the_rol.pdf width=100% height=800 >}}
+

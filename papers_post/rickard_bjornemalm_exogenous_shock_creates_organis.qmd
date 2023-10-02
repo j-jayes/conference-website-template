@@ -1,0 +1,22 @@
+---
+title: "Exogenous Shock Creates Organisational and Structural Change: The impact of Covid-19 on the Swedish business sector"
+author: "Rickard Björnemalm, Anders Houltz and Hans Sjögren"
+subtitle: "Sångsalen Session 6: Families, business and wealth organized by Staffan Albinsson"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "rickard_bjornemalm_exogenous_shock_creates_organis.jpg"
+---
+
+## Abstract
+
+The Covid-19 pandemic represents a major crisis with significant impact. Public and private organisations had to face major challenges, including bankruptcies of businesses and a decline in GDP, triggering structural change. The Pandemic induced considerable organisational and structural change as well as technological renewal, not least digitalisation. Economic sectors that for various reasons could not make use of the new technology were the ones who suffered most. But business organisations seem to have responded differently to the exogenous shock. The purpose of our paper is to find out how business actors perceived and managed the shock, by conducting a case study of Sweden. Our survey is based on three questions. 1) How did the organisations perceive that their operations were affected by the pandemic? 2) What guidance did the organisations use to navigate throughout the crisis? 3) To what extent did the organisations take advantage of the crisis to make changes and strengthen their positions? The answers to these questions come from questionaries and interviews with representatives of organisations in various types of sectors, gathered from the start of the pandemic in Spring 2020 until early 2023.
+
+## PDF
+
+{{< pdf rickard_bjornemalm_exogenous_shock_creates_organis.pdf width=100% height=800 >}}
+

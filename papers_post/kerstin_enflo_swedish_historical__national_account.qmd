@@ -1,0 +1,22 @@
+---
+title: "Swedish Historical  National Accounts   2023 Update, Revision and Underlying Principles"
+author: "Kerstin Enflo, Charlie Nilsson, Kerstin Enflo, Håkan Lobell, Olle Krantz"
+subtitle: "Kerstins Rum Session 4: Historical national accounts organized by Svante Prado and Kerstin Enflo"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "kerstin_enflo_swedish_historical__national_account.jpg"
+---
+
+## Abstract
+
+Since the most recent edition of the SHNA only stretches as far as 2010, the main purpose of this paper is to update the accounts using more recent data from Statistics Sweden (SCB). Little attention has been paid in previous publications to precisely how this should be done. While it is noted that most of the accounts use data from Statistics Sweden from various points during the 1950’s and onwards (Schön & Krantz, 2007), and that data from Statistics Sweden are adjusted to match the level of the estimates of Schön & Krantz at those benchmark years (Lobell et al., 2008), little is said regarding technical matters such as data mapping and choice of method for linking the series. It is the aim of this paper that the SHNA keeps being updated according to a consistent framework, and therefore the paper provides a description of technical matters relating to the update that have been handled, as well as discussions regarding some of the choices that have been made.
+
+## PDF
+
+{{< pdf kerstin_enflo_swedish_historical__national_account.pdf width=100% height=800 >}}
+

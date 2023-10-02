@@ -1,0 +1,29 @@
+---
+title: "Underemployment and the Neoliberal Shift"
+author: "Paulina Vaughn"
+subtitle: "Lilla Sparbanksfoajén Session 3: The Neoliberal Shift organized by Jonas Ljungberg and Erik Bengtsson"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "paulina_vaughn_underemployment_and_the_neoliberal_.jpg"
+---
+
+## Abstract
+
+This paper proposal is an early draft of my dissertation 'plan paper’, to be presented at the Political Science Department at Lund University sometime in October/November 2023. The paper will largely form the basis of my dissertation plan and is part of the session “The Neoliberal Shift”. 
+
+The project sets out to investigate the transformation of the Swedish labor market since the onset of de-industrialization and the rise of neoliberalism. My focus lies on how policy-makers responded to what I will refer to as the ‘underemployment dilemma’. The term underemployment is usually applied in the field of economics to account for the difference between the hours people would like to work and the actual hours worked. The prime example is a part-time worker who is unable to get a full-time position. The understanding of underemployment I depart from is slightly different, referring instead to a structurally induced difficulty to create stable employment; a development that started with de-industrialization. The symptoms of underemployment as opposed to unemployment, however, is not that workers are generally out of work. Underemployment instead takes the expression of insecure, badly paid, bullshit jobs, often in the form of temporary or part-time contracts swallowed by the less productive service sector. 
+
+In the United States, in which most of the literature on the transformation of labor and its relation to inequality have been conducted, the growth in low-productivity service sector jobs has been significant. Sweden has seen a different trajectory, creating other sorts of restrains on its economy. Already in the 1990s, political economists noted that the shift from manufacturing to services had created new difficulties for policy-makers pursuing full employment and egalitarian wages. The new ‘service economy trilemma’ forced policy-makers to choose only two out of three goals: egalitarian wage-setting, employment growth in the public sector, or budget restraints. Complicating rather than contradicting this story, I want to investigate the multitude and often ‘innovative’ responses to the new low-demand for labor economy in Sweden, moving beyond the alternatives of the above. The primary dilemma, as I see it, is one between a political economic (social democratic) system that works from the ideal of full employment and one in which firms are decreasingly capable of creating that employment. How policy-makers chose to respond to this dilemma is a story that still unfolds, but the early pursuit of neoliberal objectives clearly marked the beginning of it. 
+
+In short, I take underemployment dilemma to play a significant role in the political economic development of the neoliberal age. Yet, few studies have adopted this perspective as a starting-point for their analysis of neoliberal reform. Political scientists have tended to focus on ideational change among experts, elites, and institutions. Among critical political economists, on the other hand, underemployment is often sweepingly applied to diagnose the current stage of capitalism, but little attention has been paid to the role that it has played in shaping the political economic development. Hence, by tracing rather than assuming the responses to the low-demand economy, I hope to shed new light on the transformation of the Swedish labor market and its intimate relationship to the rise of neoliberalism.
+
+
+## PDF
+
+{{< pdf paulina_vaughn_underemployment_and_the_neoliberal_.pdf width=100% height=800 >}}
+

@@ -1,0 +1,31 @@
+---
+title: "Registered participants as of 18 August 2023"
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(here)
+
+authors_28_August <- read_excel(here("programme/authors_28_August.xlsx")) %>% janitor::clean_names()
+registered_28_August <- read_excel(here("programme/registered_28_August.xlsx")) %>% janitor::clean_names()
+
+to_remind <- authors_28_August %>% 
+  anti_join(registered_28_August, by = "email_address")
+
+to_remind %>% 
+  write_excel_csv(here("programme/to_remind_28_August.csv"))
+```
+
+
+```{r}
+library(gt)
+
+registered_28_August %>% 
+  select(your_name) %>% 
+  arrange(your_name) %>% 
+  gt() %>% 
+  cols_label(your_name = "Your name")
+```
+
+

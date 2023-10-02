@@ -1,0 +1,22 @@
+---
+title: "In sickness and in health - Sickness among urban and rural working-class men and women in early 20th century Sweden"
+author: "Lars Fredrik Andersson, Liselotte Eriksson"
+subtitle: "Lilla salen Session 3: The long road to the welfare state... and beyond: retirement, old-age provision and eldercare in the past and present organized by Jaco Zuijderduijn and Tobias Karlsson"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "lars_fredrik_andersson_in_sickness_and_in_health__.jpg"
+---
+
+## Abstract
+
+Economic growth has led to higher incomes and improved wealth since the industrial breakthrough, and mortality has declined on a large scale. At the turn of the 20th century, a considerably larger share of the population came to experience old age. Longer lives were not, however, necessarily healthier lives. In fact, previous findings suggest much less improvement in morbidity then mortality Clearly, a decline in mortality is not the same as a decline in morbidity and mortality, in itself, tells us nothing about the incidence of non-fatal illnesses in adulthood. In this paper, we address this issue by studying morbidity difference by age among adult men and women in Sweden during the early twentieth century. By using a rich archival material of morbidity records from one of the largest national health insurance societies, we seek to examine how age-health-deterioration indicated in previous literature interact with causes of illness, work life and living condition.
+
+## PDF
+
+{{< pdf lars_fredrik_andersson_in_sickness_and_in_health__.pdf width=100% height=800 >}}
+

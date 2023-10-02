@@ -1,0 +1,14 @@
+{
+  "hash": "d8d505d9399a68076b7cb2a5a054b9b2",
+  "result": {
+    "markdown": "---\npagetitle: \"Welcome to Template Conference\"\npage-layout: custom\nsection-divs: false\ntoc: false\ncss: assets/index.css\n---\n\n\n\n\n\n::: {.hero-banner}\n\n::: {.hero-image .hero-image-left}\n![](assets/hero_left.png)\n:::\n\n::: {.content-block}\n\n# Welcome to Template Conference\n\n:::: {.columns}\n\n::: {.column width=\"40%\"}\n\n**Introductory text**\n\n- 01 January 2024 {{< fa calendar-days >}}\n\n:::\n\n::: {.column width=\"60%\"}\n![](assets/hero.png)\n:::\n\n### Hosted by the Template Department\n\n::::\n\n::: {.hero-buttons}\n<!-- [Register](registration.qmd){.btn-action-primary .btn-action .btn .btn-success role=\"button\"} -->\n<!-- [Propose a session](propose.qmd){#btn-guide .btn-action .btn .btn-info role=\"button\"} -->\n<!-- [Submit an abstract](paper-submit.qmd){#btn-guide .btn-action .btn .btn-info role=\"button\"} -->\n[Programme](content/programme.qmd){#btn-guide .btn-action .btn .btn-info role=\"button\"}\n[Venues](content/venues_new.qmd){.btn-action-primary .btn-action .btn .btn-success role=\"button\"}\n\n::: \n\n:::\n\n::: {.hero-image .hero-image-right}\n![](assets/hero_right.png)\n:::\n\n:::\n\n::: {.grid}\n\n::: {.g-col-4}\n\n:::\n\n::: {.g-col-4}\n:::{.get-started}\n## {{< fa newspaper >}} News\n:::\n:::\n\n::: {.g-col-4}\n\n:::\n\n\n:::\n\n::: {.content-block}\n::: {.features .border}\n\n\n\n::: {.feature}\n### {{< fa door-open >}} Welcome\nWe welcome scholars to the fifteenth biannual Swedish Economic History Meeting...\n\n::: {.learn-more}\n[Learn more »](info.qmd)\n:::\n:::\n::: {.feature}\n### {{< fa calendar-days >}} Replacement busses between Malmö C and Lund\nDue to track maintenance, the trains between Lund and Malmö are cancelled during the week of the meeting...\n\n::: {.learn-more}\n[Click here »](logistics/travel.qmd)\n:::\n:::\n::: {.feature}\n### {{< fa calendar-days >}} Panel Debate: Hur mycket kan en individ påverka...\n🎙️🔥Get ready for a debate between Petter Larson and Sofia Nerbra, that will set the stage on fire…\n\n::: {.learn-more}\n[Learn more »](panel-debate.qmd)\n:::\n:::\n\n\n:::\n:::\n\n\n::: {.get-started .alt-background}\n::: {.content-block}\n\n### Contact us {{< fa paper-plane >}}\n\nGet in touch with the organizing committee [here]().\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](assets/logo.png){width=294}\n:::\n:::\n\n\n# Template Conference <br> 01 January 2024\n\n:::\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

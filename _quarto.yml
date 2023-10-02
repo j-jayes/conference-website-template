@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  favicon: assets/favicon.ico
+  navbar:
+    left:
+      - href: index.qmd
+        icon: house
+        text: Home
+      - text: "{{< fa calendar-plus >}} Program"
+        href: programme.qmd
+      - text: "{{< fa landmark >}} Venues"
+        href: venues_new.qmd
+      - text: "{{< fa newspaper >}} Abstracts"
+        href: abstracts.qmd
+      - text: "{{< fa paperclip >}} Papers"
+        href: papers_post.qmd
+          # - href: propose.qmd
+            # text: "{{< fa comment >}} Propose a session"
+          # - href: paper-submit.qmd
+            # text: "{{< fa newspaper >}} Submit an abstract"
+    right:
+      - href: registration_fees.qmd
+        text: "{{< fa money-bills >}} Registration Fee"
+      - text: "More"
+        icon: flower1
+        menu:
+          - href: info.qmd
+            text: "News"
+          - href: info.qmd
+            text: "Information"
+          - href: info.qmd
+            text: "FAQs"
+          - href: keynotes.qmd
+            text: "Keynote speakers"
+          - text: "{{< fa train >}} Travel"
+            href: logistics/travel.qmd
+          - text: "{{< fa hotel >}} Accomodation"
+            href: logistics/accomodation.qmd
+
+format:
+  html:
+    theme:
+    - flatly
+    - assets/custom.scss
+    css: assets/styles.css
+    toc: true
+
+execute:
+  echo: false
+  warning: false
+  message: false
+  freeze: auto

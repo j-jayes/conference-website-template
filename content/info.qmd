@@ -1,0 +1,44 @@
+---
+title: "News and information"
+---
+
+The Department of Economic History, School of Economics and Management, Lund University, on behalf of the Scandinavian Society for Economic and Social History and the Swedish Economic History Society hereby invite scholars to the joint fifteenth biannual Swedish Economic History Meeting and the fourth annual Conference of the Scandinavian Society for Economic and Social History. 
+
+The Swedish Economic History Meeting is established as an important forum for collaboration and dialogue amongst economic historians in Sweden and increasingly for colleagues from other Scandinavian countries and beyond. It is widely attended by PhD candidates as well as established researchers. As in Gothenburg in 2021, this meeting is jointly organized as an All-Nordic conference. We hope that the conference will attract broad international participation. 
+
+The conference mainly consists of parallel working panels composed around proposals from contributors and prospective attendants from all over Scandinavia. A wide range of subject matters will be discussed. There will also be keynote presentations and special opportunities for doctoral students to present their thesis projects. Moreover, there will be administrative meetings for Heads of Departments and Director of studies, and for the national and Scandinavian Economic history associations. 
+
+### Registration dates
+
+Online registration will open in January 2023.
+
+<!-- Register your attendance [here](registration.qmd). Registration is open until March 2023. -->
+
+### Propose a session
+
+You can propose a session [here](propose.qmd) until the 1st of February 2023.
+
+### Submit an abstract
+
+Paper submission will open in mid December 2022.
+
+<!-- You can submit an abstract [here](paper-submit.qmd) until the end of April 2023. -->
+
+---
+
+### FAQs
+
+<!-- #### How long should my presentation be?  -->
+
+<!-- #### Must I have the paper written by the date of the meeting?  -->
+
+#### What is the fast track publication process like?
+
+The Scandinavian Economic History Review is offering the possibility for participants at the conference to submit their papers for fast track consideration for publication. All contributions should be based on original research and will be subject to the normal peer-review process. Please remember to note that you are submitting for the fast track when you apply for the conference. Interested authors will be required to submit a full version through [the SEHR online submission platform](https://www.tandfonline.com/loi/sehr20) two weeks before the conference at the latest. The papers will be subject to an initial review by the SEHR editors.
+
+
+Accepted papers will be presented at separate “fast track sessions”, where an SEHR editor will be present and provide feedback on your work. The authors of the very best submissions will be invited to revise their papers based on these comments within three weeks, and the resubmissions will then be subject to the usual peer review process, with an initial decision made by the end of **January 2024**. Please note, that the fast track does not in any way preclude other papers from being submitted to the Review.
+
+---
+
+If you have any questions, please feel free to [contact us here {{< fa paper-plane >}}]()

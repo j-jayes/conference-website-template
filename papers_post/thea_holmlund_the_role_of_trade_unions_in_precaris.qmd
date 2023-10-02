@@ -1,0 +1,32 @@
+---
+title: "The Role of Trade Unions in Precarisation: LO’s Negotiations on Employment Security 1990-2020"
+author: "Thea Holmlund"
+subtitle: "Lilla Sparbanksfoajén Session 3: The Neoliberal Shift organized by Jonas Ljungberg and Erik Bengtsson"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "thea_holmlund_the_role_of_trade_unions_in_precaris.jpg"
+---
+
+## Abstract
+
+Fackets roll i prekariseringen: LOs förhandlingar om anställningtryggheten 1990-2020
+Thea Holmlund, Stockholms universitet 
+
+Abstract svenska: 
+Sedan 1990-talet har osäkra anställningar blivit allt vanligare i Sverige. Många menar att avregleringar av anställningsskyddet varit en central förutsättning för att arbetslivet prekariserats i många länder. Mellan I Sverige genomfördes bland annat lagstiftade förändringar under 1990- och 2000-talet som avreglerade personaluthyrning och skapade större möjligheter att anställda på visstid. LO har historiskt sett haft stort inflytande över den svenska arbetsmarknadens regleringar och organiserat förbund i branscher där arbetare har drabbats av osäkra anställningar. Att studera LOs handlingar och reaktioner i relation till anställningsskyddets uppluckring kan därmed bidra till förståelsen av arbetslivets prekarisering de senaste decennierna. Tidigare forskning har i stor utsträckning beskrivit LO som en homogen aktör och tagit dess intressen för givna. Samtidigt har andra forskare noterat att huruvida fackföreningar agerar inkluderande gentemot arbetare med icke-standardiserade anställningar eller ej beror på i vilken utsträckning de identifierar gemensamma intressen med dessa arbetare. Det finns därför ett behov av att få mer kunskap om hur LO:s intressen har skapats, vilka skillnader som har funnits mellan dess medlemsförbund och på vilka sätt dominerande perspektiv getts företräde. Avhandlingen syfte är att studera vilka problembilder av prekarisering och synsätt på lösningar på arbetsplatser, branschnivå och nationell nivå som format LOs förhållningssätt till uppluckringen av anställningsskyddet och otrygga anställningar. 
+
+Abstract English: 
+The Role of Trade Unions in Precarisation: LO's Negotiations on Employment Security 1990-2020
+Since the 1990s, precarious employment has become increasingly common in Sweden. Many argue that the deregulation of employment protection has been a central precondition for the precarisation of the labour market in many countries. In Sweden, legislative changes were made during the 1990s och 2000s that deregulated agency work and created greater opportunities to use fixed-term employment. Historically, The Swedish Trade Union Confederation (LO) has had significant influence over the regulations of the Swedish labour market and has organised unions in industries where workers have been affected by precarious employment. Studying LO's actions and reactions in relation to the liberalisation of employment protection can therefore contribute to understanding the precarisation of the labour market in recent decades. Previous research has largely described LO as a homogeneous actor and taken its’ interests for granted. However, other researchers have noted that whether trade unions act inclusively towards workers with non-standardised employment or not depends on the extent to which they identify common interests with these workers. Therefore, there is a need to gain knowledge about how LO's interests have been created, what differences have existed between its member unions, and in what ways dominant perspectives have been given priority. The aim of the dissertation is to examine what problem formulations of precarisation and perspectives on solutions at the workplace-, industry- and national level that have shaped LO's approach to insecure employment and the deregulation of employment protection.
+
+
+
+## PDF
+
+{{< pdf thea_holmlund_the_role_of_trade_unions_in_precaris.pdf width=100% height=800 >}}
+

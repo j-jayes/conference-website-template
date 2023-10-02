@@ -1,0 +1,25 @@
+---
+title: "Drivers of market concentration in the Swedish brewery sector, 1910-1990"
+author: "Henric Häggqvist"
+subtitle: "Nya Fest Session 7: Levels of Cartelization: Scandinavian Perspectives on the Role Cartelization in Business Development organized by Kasper Hage Stjern"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+  message: false
+  warning: false
+# image: "henric_haggqvist_drivers_of_market_concentration_i.jpg"
+---
+
+## Abstract
+
+The 20th century generally saw a trend of industrial concentration, and the beer markets were no exception. Indications from the US beer market point towards increased market concentration in the medium run (Greer, 1971).  Concentration was partly driven by an increased will of antitrust authorities to allow already large brewing companies to merge with one another (such as Miller and Coors) to form mega-companies (Elzinga, 2011). The effect of mergers has also been an aspect of the British brewing industry, although not on the same scale as in the American case (Slade, 2004). The concentration trend was a distinct feature even in the proud Belgian beer market, where the number of breweries decreased from over 3000 to around 100 across the 20th century, and average brewery size increased twenty-fold (Swinnen & Briski, 2017). In contrast, the German market was notably less concentrated than the two Anglo-Saxon and the Belgian, having partly to do with the fact that beer consumption had clear regional dimensions, creating several large regional producers with similar shares in the national market as a whole (Adams, 2011).
+
+In Sweden, the brewery sector went from being large and lively before World War I, to stale and segmented during the interwar period, with a large decrease in the number of active breweries, with few to no entries in the business for decades to come, and a trend towards large business groups (Sandberg, 2006; Box, 2017). During this era, marked by cartelization with large competition controls, there was no true national market for beer, but more or less all breweries only operated in their home regions. Gabrielsson (1970) noted a clear concentration phase from 1952 to 1967, but maintained that there were enough movement within the market, in terms of changing market shares, for it to still be termed competitive. By the 1980s then, the entire sector had been almost entirely eradicated, with few breweries remaining, and all but one had been nationalized. This paper quantifies market concentration in the long run, from about 1910 to 1990, which has not been done before, to find its take-off and acceleration. Before 1955, both regional and national market concentration is estimated. To find what was driving the concentration trend, several factors are included, such as cartel policies, state regulations and alcohol policy, the structure of exit rates, and the timing and effect of mergers and acquisitions. 
+
+
+## PDF
+
+{{< pdf henric_haggqvist_drivers_of_market_concentration_i.pdf width=100% height=800 >}}
+

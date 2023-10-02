@@ -1,0 +1,14 @@
+{
+  "hash": "6f4b582192f3862d4968758fc4367f19",
+  "result": {
+    "markdown": "---\ntitle: \"presenting not registered\"\neditor: visual\nexecute: \n  eval: false\n---\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

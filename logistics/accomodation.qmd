@@ -1,0 +1,111 @@
+---
+title: "Accomodation"
+---
+
+```{r}
+#| column: margin
+
+knitr::include_graphics(here::here("assets/hotel.png"))
+```
+
+
+## `r fontawesome::fa("hotel", fill = "#22458a")` Where to stay
+
+[Visit Lund](https://visitlund.se/en) has organized fantastic discounted rates for this conference at the following hotels:
+
+<br>
+
+```{r}
+library(tidyverse)
+library(gt)
+
+hotels <- tribble(
+  ~hotel, ~address, ~price, ~booking_code, ~contact, ~url,
+  # concordia
+  "Hotel Concordia",
+  "Stålbrogatan 1",
+  "SEK 1,625 for a single room and SEK 1,775 for a double room including breakfast buffet",
+  "Svensk- Historiska Ekonomiska mötet",
+  "Booking takes place via their e-mail: info@concordia.se or via 046-135050",
+  "https://www.concordia.se/sv.aspx",
+  # elite ideon
+  "Elite Hotel Ideon",
+  "Scheelevägen 27",
+  "SEK 1590 incl. VAT and breakfast buffet",
+  "SVENSK- HISTORISKA EKONOMISKA MÖTET",
+  "Bookings are made via group.lund-malmo@elite.se",
+  "https://elite.se/sv/hotell/lund",
+  # Lundia
+  "Hotel Lundia",
+  "Knut den Stores torg 2",
+  "Single room SEK 1295 / night including breakfast - Your sourdough roll is baked in Lund, the juice is freshly squeezed just before it is bottled, your yogurt is topped with a really good granola and your coffee is brewed from locally roasted beans.",
+  "SHEL",
+  "Book though +46 (0)46-280 65 00 or online",
+  "https://www.lundia.se/",
+  # motel l
+  "Motel L",
+  "Telefongatan 14",
+  "SEK 1,250/night including breakfast and VAT",
+  "Book through the link for discount",
+  "Book through ligula.se",
+  "https://redirects.ligula.se/Svensk-Historiska-Ekonomiska-motet"
+)
+
+hotels %>%
+  mutate(
+    link = glue::glue("[website]({url})"),
+    link = map(link, gt::md)
+  ) %>%
+  select(-url) %>%
+  gt() %>%
+  cols_label(
+    hotel = "Hotel",
+    address = "Address",
+    price = "Price",
+    booking_code = "Booking code",
+    contact = "Contact info",
+    link = "Link"
+  ) %>%
+  tab_header(title = "Hotels offering discounted rates for SEHM attendees")
+
+```
+
+
+Here is a map of the hotel locations in reference to AF Borgen, the conference venue.
+
+<br>
+
+```{r}
+# library(tidygeocoder)
+# 
+# venues <- tibble(hotel = c("AF Borgen", "Economic History Department", "EC1, Holger Crafoords Ekonomicentrum"), 
+#                  address = c("Sandgatan 2, 223 50 Lund, Sweden", "Scheelevägen 15B, 223 63 Lund, Sweden", "Tycho Brahes väg 1, 223 63 Lund"), 
+#                  type = c("venue", "venue", "venue"))
+# 
+# address <- geocode(hotels %>%
+#                      mutate(type = "hotel") %>% 
+#                      bind_rows(venues), address = address)
+# 
+# address %>% write_excel_csv(here::here("logistics", "addresses_incl_venues.csv"))
+
+address <- read_rds(here::here("logistics", "addresses.rds"))
+
+library(leaflet)
+
+address %>%
+  mutate(popup = case_when(
+    hotel != "AF Borgen" ~ glue::glue('<a href = "{url}"> {hotel} </a>'),
+    TRUE ~ "AF Borgen"
+  )) %>%
+  leaflet() %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addPopups(
+    lng = ~long,
+    lat = ~lat,
+    popup = ~popup
+  )
+```
+
+<br>
+
+Mmm, doesn't that Hotel Lundia breakfast sound good!

@@ -1,0 +1,45 @@
+---
+title: "Travel"
+---
+
+```{r}
+#| column: margin
+
+knitr::include_graphics(here::here("assets/train_station.png"))
+```
+
+## Replacement busses between Malmö C and Lund
+
+Due to track maintenance, the trains between Lund and Malmö are cancelled during the week of the meeting. There are rail replacement buses between Malmö C and Lund.
+
+You can [read about the disruption on the skanetrafiken website](https://www.skanetrafiken.se/banarbeten1/malmolund-22-september2-oktober3/#/).
+
+When arriving in Malmö from Copenhagen, you can take the replacement bus from the stop at P on the map below. Stop P is North of the station and across two roads. There will be signage. Feel free to ask for guidance on +46 771 77 77 77.
+
+```{r}
+knitr::include_graphics(here::here("assets", "malmo_bus.jpg"))
+```
+
+---
+
+Lund University has compiled a list of information about travelling to the university.
+
+These include:
+
+### `r fontawesome::fa("train", fill = "#22458a")` Trains
+
+- [Local trains between Malmö and Lund](https://www.lunduniversity.lu.se/about-university/visit-lund-university#local)
+
+- [Trains from Berlin, Oslo, Stockholm and Gothenburg](https://www.lunduniversity.lu.se/about-university/visit-lund-university#train)
+
+### `r fontawesome::fa("bus", fill = "#22458a")` Busses
+
+- [Bus/coach services from key cities in Germany, Denmark, Sweden, Norway](https://www.lunduniversity.lu.se/about-university/visit-lund-university#bus)
+
+### `r fontawesome::fa("plane-up", fill = "#22458a")` Planes
+
+- [Copenhagen Airport – the closest international airport to Lund](https://www.lunduniversity.lu.se/about-university/visit-lund-university#kastrup)
+
+### `r fontawesome::fa("taxi", fill = "#22458a")` Taxis in Lund
+
+- Call Taxi Lund [here](https://taxilund.se/)

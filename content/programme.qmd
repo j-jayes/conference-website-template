@@ -1,0 +1,458 @@
+---
+title: "Programme"
+---
+
+## Agenda
+
+```{r}
+library(tidyverse)
+library(gt)
+library(scales)
+
+schedule <- tribble(
+  ~date, ~time, ~event, ~type, ~ venue,
+  "2023-09-27", "11:00 - 16:00", "Administrative meetings", "Meeting", "Economic History Department",
+  "2023-09-27", "16:00 - 17:00", "[Panel debate (in Swedish): *Hur mycket kan en individ påverka sin framtid?*](https://sehm2023.com/panel-debate)", "Other", "EC1 Holger Crafoords Ekonomicentrum",
+  "2023-09-27", "17:00 onwards", "Reception in Ljusgarden", "Social", "EC1 Holger Crafoords Ekonomicentrum",
+  "2023-09-27", "19:00", "Pub quiz", "Social", "John Bull Pub & Restaurant",
+  "2023-09-28", "08:30 - 09:00", "Registration", "Meeting", "AF Borgen: Lilla Sparbanks-foajén",
+  "2023-09-28", "09:00 - 09:45", "Opening remarks by<br>Erik Green, Chair of the Swedish Economic History Society<br>Lena Eskilsson, Deputy Vice Chancellor Lund University<br>Mats Helmfrid, Chairmman of Lund City Council", "Other","AF Borgen: Stora Salen",
+  "2023-09-28", "10:00 - 11:15", "Parallel Session 1", "Session","AF Borgen",
+  "2023-09-28", "11:15 - 11:30", "Coffee Break", "Break","AF Borgen",
+  "2023-09-28", "11:30 - 12:45", "Parallel Session 2", "Session","AF Borgen",
+  "2023-09-28", "12:45 - 14:00", "Lunch Break", "Break","",
+  "2023-09-28", "14:00 - 15:00", "Keynote by Sheilagh Ogilvie titled *State Capacity and Economic History*", "Keynote","AF Borgen: Stora Salen",
+  "2023-09-28", "15:15 - 16:30", "Parallel Session 3", "Session","AF Borgen",
+  "2023-09-28", "16:30 - 16:45", "Coffee Break", "Break","AF Borgen",
+  "2023-09-28", "16:45 - 18:00", "Parallel Session 4", "Session","AF Borgen",
+  "2023-09-28", "18:00 - 18:45", "PhD Mingle", "Social","Café Ariman",
+  "2023-09-28", "18:00 - 18:45", "[Celebrate New Scholarship: book launch](https://sehm2023.com/programme/book-launch)", "Other", "AF Borgen",
+  "2023-09-28", "19:00 onwards", "Dinner at [Torgets](https://torgets.se/)", "Social", "Torgets Restaurant, beside City Hall in Lund",
+  "2023-09-29", "09:00 - 10:15", "Parallel Session 5", "Session","AF Borgen",
+  "2023-09-29", "10:15 - 10:30", "Coffee Break", "Break","AF Borgen",
+  "2023-09-29", "10:30 - 11:45", "Parallel Session 6", "Session","AF Borgen",
+  "2023-09-29", "11:45 - 13:00", "Lunch Break", "Break","",
+  "2023-09-29", "13:00 - 14:00", "Keynote by Klara Arnberg titled [*The Sex of Markets*](keynotes.qmd#the-sex-of-markets)", "Keynote","AF Borgen: Stora Salen",
+  "2023-09-29", "14:15 - 15:30", "Parallel Session 7", "Session", "AF Borgen"
+)
+
+schedule$date <- as.Date(schedule$date)
+
+schedule <- schedule %>% 
+  mutate(date = format(date, "%A the %dth of %B"))
+
+type_colors <- tribble(
+  ~type, ~colour,
+  "Break", "#FAB8A4", # Pastel red-orange
+  "Keynote", "#9FECEC", # Pastel turquoise
+  "Meeting", "#A7C5FF", # Pastel light blue
+  "Other", "#F9B3F0", # Pastel pink
+  "Session", "#C0F7C0", # Pastel light green
+  "Social", "#FFD878"
+) # Pastel amber
+
+column_colours <- schedule %>%
+  mutate(rn = row_number()) %>%
+  inner_join(type_colors)
+
+schedule_gt <- schedule %>%
+  group_by(date) %>%
+  gt() %>%
+  tab_style(
+    style = list(
+      cell_fill(color = "#FAB8A4")
+    ),
+    locations = cells_body(
+      columns = event,
+      rows = column_colours %>% filter(type == "Break") %>% pull(rn)
+    )
+  ) %>%
+  tab_style(
+    style = list(
+      cell_fill(color = "#9FECEC")
+    ),
+    locations = cells_body(
+      columns = event,
+      rows = column_colours %>% filter(type == "Keynote") %>% pull(rn)
+    )
+  ) %>%
+  tab_style(
+    style = list(
+      cell_fill(color = "#A7C5FF")
+    ),
+    locations = cells_body(
+      columns = event,
+      rows = column_colours %>% filter(type == "Meeting") %>% pull(rn)
+    )
+  ) %>%
+  tab_style(
+    style = list(
+      cell_fill(color = "#F9B3F0")
+    ),
+    locations = cells_body(
+      columns = event,
+      rows = column_colours %>% filter(type == "Other") %>% pull(rn)
+    )
+  ) %>%
+  tab_style(
+    style = list(
+      cell_fill(color = "#C0F7C0")
+    ),
+    locations = cells_body(
+      columns = event,
+      rows = column_colours %>% filter(type == "Session") %>% pull(rn)
+    )
+  ) %>%
+  tab_style(
+    style = list(
+      cell_fill(color = "#FFD878")
+    ),
+    locations = cells_body(
+      columns = event,
+      rows = column_colours %>% filter(type == "Social") %>% pull(rn)
+    )
+  ) %>% 
+  cols_hide(type) %>% 
+  tab_header(title = md("**Programme**")) %>% 
+  tab_options(column_labels.hidden = TRUE) %>% 
+  tab_style(
+    style = list(
+      cell_text(weight = "bold")
+    ),
+    locations = cells_row_groups()
+  ) %>% 
+  cols_align("center", venue) %>% 
+  fmt_markdown(columns = event)
+
+schedule_gt
+```
+
+### Administrative meetings
+
+```{r}
+library(gtExtras)
+
+admin <- tribble(
+  ~Time, ~Meeting, ~Room, ~Building,
+  "11:00-12:00", "Meeting with heads of department", "2064", "Alfa 1",
+  "12:00-13:00", "Lunch for heads of department and director of studies", "venue tba", "",
+  "13:00-14:00", "Meeting of the directors of PhD-studies", "1104", "Alfa 1",
+  "14:00-15:00", "Editor’s meeting for the Scandinavian Economic History Review ", "1104", "Alfa 1",
+  "15:00-16:00", "Meeting of the Scandinavian Society for Social and Economic history", "1104", "Alfa 1"
+)
+
+admin %>% 
+  gt() %>% 
+  gt_merge_stack(Room, Building) %>% 
+  tab_header(title = md("**Administrative meeting schedule**")) %>% 
+  tab_style(
+    style = list(
+      cell_fill(color = "#A7C5FF")
+    ),
+    locations = cells_body(
+      columns = Meeting)
+  )
+
+```
+
+## Paper Sessions
+
+The paper sessions will take place at [AF Borgen](https://www.afborgen.se/) in Lund. The room numbers will be updated when we know exactly which rooms we will have access to.
+
+```{r}
+#| column: page
+df <- readxl::read_excel(here::here("programme", "SEHM23_Schedule_5_September.xlsx")) %>% 
+  janitor::clean_names()
+
+
+
+venues <- tibble(venue_name = c(
+  "Gustafscenen",
+  "Källarsalen",
+  "Lilla salen",
+  "Nya Fest",
+  "Sångsalen",
+  "Lilla Sparbanksfoajén",
+  "Kerstins Rum"
+)) %>% mutate(room = row_number())
+
+df <- schedule %>% 
+  filter(type == "Session") %>%
+  mutate(event = str_remove(event, "Session "),
+          slot = parse_number(event),
+         slot_desc = str_c(row_number(), ":\n", date, "\n", time)) %>% 
+  inner_join(df)
+
+df <- df %>% 
+  inner_join(venues)
+
+df %>%
+  select(-abstract, -author_email) %>%
+  count(room, slot_desc, slot, session_name) %>%
+  mutate(session_name = str_c(session_name, " \n(", n, ")")) %>%
+  select(-n) %>%
+  arrange(slot) %>%
+  select(-slot) %>%
+  pivot_wider(names_from = room, values_from = session_name) %>%
+  gt() %>%
+  tab_header(title = md("**Sessions**"),
+             subtitle = md("*Number of papers indicated in brackets*")) %>%
+  cols_align() %>%
+  tab_style(
+    style = cell_fill(color = "#FFD1DC"),  # Pastel Pink
+    locations = cells_body(
+      columns = c(2)
+    )
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#A2D5F2"),  # Pastel Blue
+    locations = cells_body(
+      columns = c(3)
+    )
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#FFFFD1"),  # Pastel Yellow
+    locations = cells_body(
+      columns = c(4)
+    )
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#A8E6CF"),  # Pastel Green
+    locations = cells_body(
+      columns = c(5)
+    )
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#D4A5A5"),  # Pastel Lavender
+    locations = cells_body(
+      columns = c(6)
+    )
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#FFABAB"),  # Pastel Orange
+    locations = cells_body(
+      columns = c(7)
+    )
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#C3AED6"),  # Pastel Purple
+    locations = cells_body(
+      columns = c(8)
+    )
+  ) %>%
+  sub_missing(columns = everything(), missing_text = "") %>%
+  cols_label(
+    slot_desc = "",
+    `1` = "Gustafscenen",
+    `2` = "Källarsalen",
+    `3` = "Lilla salen",
+    `4` = "Nya Fest",
+    `5` = "Sångsalen",
+    `6` = "Lilla Sparbanksfoajén",
+    `7` = "Kerstins Rum",
+  )
+
+  
+```
+
+<!-- Session prep -->
+
+```{r}
+papers <- readxl::read_excel(here::here("programme", "SEHM23_Schedule_5_September.xlsx")) %>% 
+  janitor::clean_names()
+
+papers <- papers %>% 
+  mutate(url = str_c(authors_name, "_", title),
+         url = str_replace_all(url, " ", "_"),
+         url = str_remove_all(url, "[^\\w\\s]"),
+         url = str_to_lower(url),
+         url = stringi::stri_trans_general(url, "Latin-ASCII"),
+         url = URLencode(str_sub(url, start = 1, end = 50)),
+         url_stub = url,
+         url = str_c("https://sehm2023.com/abstracts/", url))
+
+venues <- tibble(venue_name = c(
+  "Gustafscenen",
+  "Källarsalen",
+  "Lilla salen",
+  "Nya Fest",
+  "Sångsalen",
+  "Lilla Sparbanksfoajén",
+  "Kerstins Rum"
+)) %>% mutate(room = row_number())
+
+papers <- papers %>%
+  inner_join(venues)
+
+session_ids <- papers %>% 
+  distinct(session_name) %>% 
+  mutate(session_id = row_number())
+
+papers <- papers %>% 
+  inner_join(session_ids)
+
+slots <- schedule %>% 
+  filter(type == "Session") %>% 
+  select(date, time, event) %>% 
+  mutate(slot = parse_number(str_remove(event, "Session")),
+         tab_text = glue::glue("**{event}**<br>{date}   {time}"))
+
+```
+
+
+```{r}
+make_table <- function(slot_in) {
+  tab_text_in <- slots %>%
+    filter(slot == slot_in) %>%
+    select(tab_text) %>%
+    head(1) %>%
+    pull()
+
+  papers %>%
+    filter(slot == slot_in) %>%
+    select(title, session_name, authors_name, coauthors, session_id, room, organizer, url, order, venue_name) %>%
+    mutate(session_name_spanner = glue::glue("{venue_name} Session {slot_in}:\n{session_name} organized by {organizer}"),
+           title = glue::glue("[{title}]({url})"),
+           title = map(title, gt::md)) %>%
+    group_by(session_name_spanner) %>%
+    arrange(room, order) %>% 
+    gt() %>%
+    sub_missing(columns = coauthors, missing_text = "") %>%
+    cols_hide(c(room, session_name, session_id, organizer, url, order, venue_name)) %>%
+    cols_label(title = "Title", authors_name = "Author", coauthors = "Together with") %>%
+    cols_align(columns = title, align = "left") %>% 
+    cols_width(title ~ px(600)) %>% 
+    tab_style(
+      style = list(
+        cell_fill(color = "#95ACC6"),
+        cell_text(weight = "bold")
+      ),
+      locations = cells_row_groups()
+    ) %>%
+    tab_style(
+      style = list(
+        cell_fill(color = "#F4F9F9")
+      ),
+      locations = cells_body(
+        columns = everything()
+      )
+    ) %>%
+    tab_header(title = md(tab_text_in))
+}
+ 
+
+```
+
+### Session 1
+
+```{r}
+#| column: page
+make_table(1)
+```
+
+### Session 2
+
+```{r}
+#| column: page
+make_table(2)
+```
+
+### Session 3
+
+```{r}
+#| column: page
+make_table(3)
+```
+
+### Session 4
+
+```{r}
+#| column: page
+make_table(4)
+```
+
+### Session 5
+
+```{r}
+#| column: page
+make_table(5)
+```
+
+### Session 6
+
+```{r}
+#| column: page
+make_table(6)
+```
+
+### Session 7
+
+```{r}
+#| column: page
+make_table(7)
+```
+
+
+
+```{r}
+make_table_print <- function(slot_in) {
+  tab_text_in <- slots %>%
+    filter(slot == slot_in) %>%
+    select(tab_text) %>%
+    head(1) %>%
+    pull()
+
+  papers %>%
+    filter(slot == slot_in) %>%
+    select(title, session_name, authors_name, coauthors, session_id, room, organizer, url, order, venue_name) %>%
+    mutate(session_name_spanner = glue::glue("{venue_name} Session {slot_in}:\n{session_name} organized by {organizer}"),
+           authors_name = case_when(
+             is.na(coauthors) ~ authors_name,
+             TRUE ~ str_c(authors_name, ", ", coauthors)
+           ),
+           title = str_c(authors_name, ": *", title, "*")) %>%
+    group_by(session_name_spanner) %>%
+    arrange(room, order) %>% 
+    gt() %>%
+    cols_hide(c(room, session_name, authors_name, coauthors, session_id, organizer, url, order, venue_name)) %>%
+    cols_label(title = "") %>%
+    cols_align(columns = title, align = "left") %>% 
+    cols_width(title ~ px(600)) %>% 
+    fmt_markdown(title) %>% 
+    tab_style(
+      style = list(
+        cell_fill(color = "#95ACC6"),
+        cell_text(weight = "bold")
+      ),
+      locations = cells_row_groups()
+    ) %>%
+    tab_style(
+      style = list(
+        cell_fill(color = "#F4F9F9")
+      ),
+      locations = cells_body(
+        columns = everything()
+      )
+    ) %>%
+    tab_header(title = md(tab_text_in))
+}
+```
+
+
+```{r}
+#| eval: false
+make_table_print(1)
+
+make_table_print(2)
+
+make_table_print(3)
+
+make_table_print(4)
+
+make_table_print(5)
+
+make_table_print(6)
+
+make_table_print(7)
+
+```

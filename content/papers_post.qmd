@@ -1,0 +1,9 @@
+---
+title: "Papers"
+listing:
+  contents:
+    - "papers_post/*.qmd"
+  type: table
+---
+
+Thank you to the presenters who were willing to share their papers!

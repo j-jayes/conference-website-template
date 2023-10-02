@@ -1,0 +1,133 @@
+---
+pagetitle: "Welcome to Template Conference"
+page-layout: custom
+section-divs: false
+toc: false
+css: assets/index.css
+---
+
+```{r, include=FALSE}
+library(fontawesome)
+```
+
+
+::: {.hero-banner}
+
+::: {.hero-image .hero-image-left}
+![](assets/hero_left.png)
+:::
+
+::: {.content-block}
+
+# Welcome to Template Conference
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+**Introductory text**
+
+- 01 January 2024 {{< fa calendar-days >}}
+
+:::
+
+::: {.column width="60%"}
+![](assets/hero.png)
+:::
+
+### Hosted by the Template Department
+
+::::
+
+::: {.hero-buttons}
+<!-- [Register](registration.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"} -->
+<!-- [Propose a session](propose.qmd){#btn-guide .btn-action .btn .btn-info role="button"} -->
+<!-- [Submit an abstract](paper-submit.qmd){#btn-guide .btn-action .btn .btn-info role="button"} -->
+[Programme](content/programme.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
+[Venues](content/venues_new.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"}
+
+::: 
+
+:::
+
+::: {.hero-image .hero-image-right}
+![](assets/hero_right.png)
+:::
+
+:::
+
+::: {.grid}
+
+::: {.g-col-4}
+
+:::
+
+::: {.g-col-4}
+:::{.get-started}
+## {{< fa newspaper >}} News
+:::
+:::
+
+::: {.g-col-4}
+
+:::
+
+
+:::
+
+::: {.content-block}
+::: {.features .border}
+
+
+```{r, output="asis"}
+library(readxl)
+library(dplyr)
+library(stringr)
+library(here)
+
+generate_markdown <- function(excel_path) {
+  df <- read_excel(excel_path)
+  
+  df %>% 
+    rowwise() %>%
+    summarise(
+      output = str_c(
+        "::: {.feature}\n",
+        "### {{< fa ", fa_icon, " >}} ", title, "\n",
+        text, "\n\n",
+        "::: {.learn-more}\n",
+        "[", learn_more_text, " »](", link, ")\n",
+        ":::\n:::"
+      )
+    ) %>%
+    pull(output) %>%
+    cat(sep = "\n")
+}
+
+# Replace 'path_to_your_excel_file.xlsx' with the actual path to your Excel file.
+generate_markdown(here("inputs", "news.xlsx"))
+
+```
+
+:::
+:::
+
+
+::: {.get-started .alt-background}
+::: {.content-block}
+
+### Contact us {{< fa paper-plane >}}
+
+Get in touch with the organizing committee [here]().
+
+```{r}
+#| fig-width: 2
+
+knitr::include_graphics("assets/logo.png")
+```
+
+# Template Conference <br> 01 January 2024
+
+:::
+
+:::

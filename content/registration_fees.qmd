@@ -1,0 +1,80 @@
+---
+title: "Registration fees"
+---
+
+The organisers warmly welcome all scholars, PhD students and undergraduate and Masters students who wish to participate in the conference. In order to participate in the conference, you need to register and pay the conference fee.
+
+## Registration fee
+
+The rules of the Swedish Economic History Society (SEHF) stipulate that their members enjoy a discount of 300 kronor on the conference fee. So do participants affiliated to an institution outside of Sweden. If you are uncertain as to whether you are a member of SEHF, ask your head of department or your representative in the board of SEHF.
+
+```{r}
+library(tidyverse)
+library(gt)
+
+
+tbl <- tibble(phd_students = c(200, 500, 200),
+              others = c(500, 800, 500),
+              group = c("Members of the Swedish Economic History Society", "Non-members of the Swedish Economic History Society", "Participants affiliated to an institution outside of Sweden"))
+
+
+tbl %>%
+  group_by(group) %>%
+  gt() %>%
+  fmt_currency(everything(), currency = "SEK", decimals = 0) %>%
+  cols_label(
+    phd_students = "PhD students",
+    others = "Others"
+  ) %>%
+  tab_header(title = md("**Conference fee**")) %>%
+  tab_style(
+    style = cell_text(weight = "lighter"),
+    locations = cells_row_groups(groups = everything())
+  )
+```
+
+## Payment information
+
+```{r}
+sv_payment <- tibble(
+  `Account holder` = c("Svenska ekonomisk-historiska föreningen (SEHF)"),
+  `Account number` = c("742 535 738"),
+  `Clearing number` = c("6752 (Handelsbanken)"),
+  `Reference` = c("Your name")
+) %>%
+  pivot_longer(everything())
+
+sv_payment %>%
+  gt() %>%
+  tab_header(title = md("**Swedish payments**")) %>%
+  tab_style(
+    style = cell_text(weight = "lighter"),
+    locations = cells_body(name)
+  ) %>%
+  tab_options(column_labels.hidden = T)
+
+int_payment <- tibble(
+  `IBAN Code` = c("SE16 6000 0000 0007 4253 5738"),
+  `BIC (SWIFT) Code` = c("HANDSESS"),
+  `Reference` = c("Your name"),
+  `Name of bank` = c("Handelsbanken"),
+  `Account holder` = c("Svenska ekonomisk-historiska föreningen (SEHF)"),
+  Adress = c("Box 7083, 220 07 Lund, Sweden")
+) %>%
+  pivot_longer(everything())
+
+int_payment %>%
+  gt() %>% 
+  tab_header(title = md("**Swedish payments**")) %>%
+  tab_style(
+    style = cell_text(weight = "lighter"),
+    locations = cells_body(name)
+  ) %>%
+  tab_options(column_labels.hidden = T) %>%
+  tab_header(title = md("**International payments**"))
+
+```
+
+---
+
+If you have any questions, please feel free to [contact us here {{< fa paper-plane >}}]()

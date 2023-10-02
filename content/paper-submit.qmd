@@ -1,0 +1,33 @@
+---
+title: "Submit an abstract"
+---
+
+You are invited to submit a paper to the 15th Swedish Economic History Meeting which will be held in Lund, Sweden on the 27th to the 29th of September 2023. We welcome papers dealing with all aspects of social and economic history. We particularly encourage paper proposals from graduate students.
+
+Proposals should include an abstract of the paper (maximum 500 words) and can include additional details such as methodology, data sources, and expected results. This information will help the organizers place related papers in a session together. 
+
+However, you do not need to choose from the [accepted sessions](https://sehm2023.com/news/provisional-sessions.html) when you offer your abstract. Simply submit your abstract and we will make sure that you have a chance to present in an appropriate slot.
+
+Please note that paper proposals do not need to be a finished paper, but rather a proposal for a paper that you plan to write. The deadline for proposals is 31 March 2023.
+
+Sessions will be two hours long, with three or four papers per session. This includes a short presentation by the author of each paper and a discussion led by the session chair.
+
+Calendar:
+
+-   Proposals due: 31 March 2023
+
+-   Authors notified of acceptance of paper: 15 April, 2023
+
+-   15th Swedish Economic History Meeting in Lund: 27th - 29th of September, 2023
+
+Submit your proposal via the online form below. We look forward to receiving your proposals and to an exciting and stimulating meeting in Lund.
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmYTxxGsIbcFh5UaYurttMu9BHcu3--XEjSZ-8LVTlq7gePw/viewform?embedded=true" width="800" height="2700" frameborder="0" marginheight="0" marginwidth="0">
+
+Loading...
+
+</iframe>
+
+------------------------------------------------------------------------
+
+If you have any questions, please feel free to [contact us here {{< fa paper-plane >}}]()
